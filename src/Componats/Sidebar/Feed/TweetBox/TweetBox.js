@@ -19,8 +19,7 @@ const TweetBox = () => {
       verified: true,
       text: tweetMessage,
       image: tweetImage,
-      avatar:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVW6tRa_qW83fppIYIFced0ZU96MQixbuoag8FH9umQQ&s',
+      avatar: 'https://twitter.com/Gokula__Krishna/photo',
     })
     setTweetImage('')
     setTweetMessage('')
