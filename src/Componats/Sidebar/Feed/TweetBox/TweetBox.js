@@ -19,7 +19,8 @@ const TweetBox = () => {
       verified: true,
       text: tweetMessage,
       image: tweetImage,
-      avatar: 'https://twitter.com/Gokula__Krishna/photo',
+      avatar:
+        'https://pbs.twimg.com/profile_images/1515927573854711810/EyL67-uR_400x400.jpg',
     })
     setTweetImage('')
     setTweetMessage('')
@@ -28,7 +29,7 @@ const TweetBox = () => {
     <div className='tweetbox'>
       <form>
         <div className='tweetbox__input'>
-          <Avatar src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVW6tRa_qW83fppIYIFced0ZU96MQixbuoag8FH9umQQ&s' />
+          <Avatar src='https://pbs.twimg.com/profile_images/1515927573854711810/EyL67-uR_400x400.jpg' />
           <input
             type='text'
             onChange={(e) => setTweetMessage(e.target.value)}
