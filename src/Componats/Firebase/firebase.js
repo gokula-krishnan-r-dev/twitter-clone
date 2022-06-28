@@ -2,16 +2,16 @@ import firebase from 'firebase/compat/app'
 import 'firebase/compat/auth'
 import 'firebase/compat/firestore'
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyBtgaG2ounl4ir3qhQXKSwFIuWD10ubZVw',
-  authDomain: 'twitter-clone-1-cb7db.firebaseapp.com',
-  projectId: 'twitter-clone-1-cb7db',
-  storageBucket: 'twitter-clone-1-cb7db.appspot.com',
-  messagingSenderId: '886636602687',
-  appId: '1:886636602687:web:3fea375337826930239f8a',
-  measurementId: 'G-KJLZVF8FKL',
+  apiKey: 'AIzaSyBr0F_zjO1qYfxxismYCV4A_tqRPNyTDNE',
+  authDomain: 'twitter-clone-324a4.firebaseapp.com',
+  projectId: 'twitter-clone-324a4',
+  storageBucket: 'twitter-clone-324a4.appspot.com',
+  messagingSenderId: '651298014681',
+  appId: '1:651298014681:web:8b57f6ad3466f5fbe185c8',
+  measurementId: 'G-XKRK9DG0YP',
 }
+
 const firebaseApp = firebase.initializeApp(firebaseConfig)
 
 const db = firebaseApp.firestore()
