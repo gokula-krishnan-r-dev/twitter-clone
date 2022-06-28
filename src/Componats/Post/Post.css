@@ -1,0 +1,79 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+}
+.post__avatar {
+  bottom: 40px;
+  padding: 20px;
+}
+
+.post__body > img {
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  width: 59vh;
+}
+
+.post__headertext {
+  padding-top: 14px;
+  padding-right: 20px;
+  display: flex;
+
+  font-size: 15px;
+}
+.post__headertext > h3 {
+  font-size: 15px;
+}
+
+.post__badge {
+  font-size: 18px !important;
+  color: var(--twitter-color);
+}
+.btn {
+  border: none;
+  background-color: white;
+}
+
+.deleteIcon {
+  font-size: 23px !important;
+  margin-left: 260px;
+  cursor: pointer;
+  border: none;
+  background-color: none;
+}
+.deleteIcon:hover {
+  color: var(--twitter-background);
+}
+
+.post__headerDescription {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.post__headerSpecial {
+  font-weight: 600;
+
+  font-size: 15px;
+  color: gray;
+}
+
+.post__footer {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.chat {
+  cursor: pointer !important;
+}
+.chat:hover {
+  background-color: var(--twitter-background);
+}
+.like {
+  color: red;
+  cursor: pointer;
+}

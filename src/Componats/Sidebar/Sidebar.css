@@ -1,0 +1,27 @@
+.sidebar {
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.2;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sidebar__twittericon {
+  color: var(--twitter-color);
+  font-size: 30px !important;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar__tweet {
+  background-color: var(--twitter-color);
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  width: 24vh;
+  margin-top: 20px;
+  text-transform: inherit;
+  border-radius: 60px;
+  height: 50px;
+  cursor: pointer;
+}
